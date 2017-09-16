@@ -17,6 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+        NSString *phone = @"11111";
+        NSString *userPassword = @"2222";
+        NSString *loginType = @"ios";
+        NSString *jPushRegistId = nil;
+        NSString *token = @"saswdxd";
+    
+      NSDictionary *params = @{
+                   @"phoneNumber":phone,
+                   @"userPassword":userPassword,
+                   @"loginType":loginType,
+                   @"jiguangUserid":jPushRegistId,
+                   @"token":token
+                   };
+    
+        NSLog(@"params****%@\n",params);
+    
 }
 
 

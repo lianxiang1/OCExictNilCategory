@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8340FCC01F6CBC3700601905 /* NSArray+ExtNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8340FCB91F6CBC3700601905 /* NSArray+ExtNil.m */; };
+		8340FCC11F6CBC3700601905 /* NSDictionary+ExtNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8340FCBB1F6CBC3700601905 /* NSDictionary+ExtNil.m */; };
+		8340FCC21F6CBC3700601905 /* NSMutableArray+ExtNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8340FCBD1F6CBC3700601905 /* NSMutableArray+ExtNil.m */; };
+		8340FCC31F6CBC3700601905 /* NSMutableDictionary+ExtNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8340FCBF1F6CBC3700601905 /* NSMutableDictionary+ExtNil.m */; };
 		836101B81F6C3065008ED856 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836101B71F6C3065008ED856 /* main.m */; };
 		836101BB1F6C3065008ED856 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 836101BA1F6C3065008ED856 /* AppDelegate.m */; };
 		836101BE1F6C3065008ED856 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836101BD1F6C3065008ED856 /* ViewController.m */; };
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8340FCB81F6CBC3700601905 /* NSArray+ExtNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ExtNil.h"; sourceTree = "<group>"; };
+		8340FCB91F6CBC3700601905 /* NSArray+ExtNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ExtNil.m"; sourceTree = "<group>"; };
+		8340FCBA1F6CBC3700601905 /* NSDictionary+ExtNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ExtNil.h"; sourceTree = "<group>"; };
+		8340FCBB1F6CBC3700601905 /* NSDictionary+ExtNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ExtNil.m"; sourceTree = "<group>"; };
+		8340FCBC1F6CBC3700601905 /* NSMutableArray+ExtNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+ExtNil.h"; sourceTree = "<group>"; };
+		8340FCBD1F6CBC3700601905 /* NSMutableArray+ExtNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+ExtNil.m"; sourceTree = "<group>"; };
+		8340FCBE1F6CBC3700601905 /* NSMutableDictionary+ExtNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ExtNil.h"; sourceTree = "<group>"; };
+		8340FCBF1F6CBC3700601905 /* NSMutableDictionary+ExtNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ExtNil.m"; sourceTree = "<group>"; };
 		836101B31F6C3065008ED856 /* OCAvoidNilCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCAvoidNilCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836101B71F6C3065008ED856 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		836101B91F6C3065008ED856 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +90,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8340FCB71F6CBC3700601905 /* OCAvoidNilCate */ = {
+			isa = PBXGroup;
+			children = (
+				8340FCB81F6CBC3700601905 /* NSArray+ExtNil.h */,
+				8340FCB91F6CBC3700601905 /* NSArray+ExtNil.m */,
+				8340FCBA1F6CBC3700601905 /* NSDictionary+ExtNil.h */,
+				8340FCBB1F6CBC3700601905 /* NSDictionary+ExtNil.m */,
+				8340FCBC1F6CBC3700601905 /* NSMutableArray+ExtNil.h */,
+				8340FCBD1F6CBC3700601905 /* NSMutableArray+ExtNil.m */,
+				8340FCBE1F6CBC3700601905 /* NSMutableDictionary+ExtNil.h */,
+				8340FCBF1F6CBC3700601905 /* NSMutableDictionary+ExtNil.m */,
+			);
+			path = OCAvoidNilCate;
+			sourceTree = "<group>";
+		};
 		836101AA1F6C3065008ED856 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +128,7 @@
 		836101B51F6C3065008ED856 /* OCAvoidNilCategory */ = {
 			isa = PBXGroup;
 			children = (
+				8340FCB71F6CBC3700601905 /* OCAvoidNilCate */,
 				836101B91F6C3065008ED856 /* AppDelegate.h */,
 				836101BA1F6C3065008ED856 /* AppDelegate.m */,
 				836101BC1F6C3065008ED856 /* ViewController.h */,
@@ -274,7 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				836101BE1F6C3065008ED856 /* ViewController.m in Sources */,
+				8340FCC11F6CBC3700601905 /* NSDictionary+ExtNil.m in Sources */,
 				836101BB1F6C3065008ED856 /* AppDelegate.m in Sources */,
+				8340FCC21F6CBC3700601905 /* NSMutableArray+ExtNil.m in Sources */,
+				8340FCC31F6CBC3700601905 /* NSMutableDictionary+ExtNil.m in Sources */,
+				8340FCC01F6CBC3700601905 /* NSArray+ExtNil.m in Sources */,
 				836101B81F6C3065008ED856 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +541,7 @@
 				836101E21F6C3065008ED856 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		836101E31F6C3065008ED856 /* Build configuration list for PBXNativeTarget "OCAvoidNilCategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +550,7 @@
 				836101E51F6C3065008ED856 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		836101E61F6C3065008ED856 /* Build configuration list for PBXNativeTarget "OCAvoidNilCategoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +559,7 @@
 				836101E81F6C3065008ED856 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
